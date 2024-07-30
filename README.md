@@ -4,15 +4,18 @@ second lab in vc
 ## Delete branches locally:
 
 git branch -d dev
+
 git branch -d test
 
 ## Delete branches remotely:
 
 git push origin :dev
+
 git push origin :test
 
 ## checkout another branch without commit changes
 git stash
+
 git checkout <the_other_branch>
 
 ## List all tags:
